@@ -2,7 +2,7 @@
 
 ## General information
 
-### Times in the course
+### Course agenda
 
 |                | PST   | CST   |
 | -------------- | ----- | ----- |
