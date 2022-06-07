@@ -22,9 +22,30 @@
     - [Empexport.csv](./1st%20day/Empexport.csv)
       - CSV file containing a dataset information regarding employee data. It lacks headers.
 - [2nd day](./2nd%20day/)
-  - Jupyter Notebooks
+  - MLData
+    - Folder containing the following example datasets, these are located specifically in this file for the purpose of the "regular" script exercises.
+    - [01HR_Data.csv](./2nd%20day/MLData/01HR_Data.csv)
+      - This dataset is composed of two columns:
+        - Years Of Experience (float)
+        - Salary (integer)
+    - [02Companies.csv](./2nd%20day/MLData/02Companies.csv)
+      - This dataset is comprised by the following columns:
+        - RNDSpend (float)
+        - Administration (float)
+        - Marketing Spend (float)
+        - State (string)
+        - Profit (float)
+  - Python Scripts
+    - [Day2-Correlation Calculation-StudentCopy.ipynb](./2nd%20day/Day2-Correlation%20Calculation-StudentCopy.ipynb)
+      - Jupyter Notebook containing examples on how does data correlate between of the fields.
     - [Day2-Demographics Data Analysis-StudentCopy.ipynb](./2nd%20day/Day2-Demographics%20Data%20Analysis-StudentCopy.ipynb)
       - Jupyter Notebook containing the example seen as to how to plot information given and how to start doing data analysis.
+    - [MultipleLinearRegression-Personal.py](./2nd%20day/MultipleLinearRegression-Personal.py)
+      - Python script showcasing how to run a Multiple Linear regression example on a dataset.
+        - The dataset used as an example is [02Companies.csv](./2nd%20day/MLData/02Companies.csv)
+    - [SimpleLinearRegression-Personal.py](./2nd%20day/SimpleLinearRegression-Personal.py)
+      - Python script containig information regarding how to run a Simple Linear regression on a dataset.
+        - The dataset used as an example is [01HR_Data.csv](./2nd%20day/MLData/01HR_Data.csv)
   - Other files
     - [DemographicData.csv](./2nd%20day/DemographicData.csv)
       - CSV file containing demographic data in each country. It's composed by the following columns:
@@ -33,8 +54,9 @@
         - Birth rate
         - Internet access
         - Income Group
-  - [Unedited Notebooks](./2nd%20day/Unedited%20Notebooks/)
+  - [Unedited Scripts](./2nd%20day/Unedited%20Notebooks/)
     - This folder is specifically being used to save the templates that were given during the lessons.
+    - Some of the files located in this folder are Jupyter Notebooks and other are Python scripts that were used in Spyder.
 
 ### Times in the course
 
@@ -62,6 +84,14 @@ jupyter notebook --notebook-dir="path/to/directory"
 
 ```bash
 jupyter notebook --notebook-dir="path/to/directory"
+```
+
+#### To insert commands in Spyder
+
+Use the following shortcut on your keyboard
+
+```keyboard
+CTRL + 4
 ```
 
 ## Machine Learning Libraries for Python
