@@ -22,6 +22,7 @@
     - [Empexport.csv](./1st%20day/Empexport.csv)
       - CSV file containing a dataset information regarding employee data. It lacks headers.
 - [2nd day](./2nd%20day/)
+
   - MLData
     - Folder containing the following example datasets, these are located specifically in this file for the purpose of the "regular" script exercises.
     - [01HR_Data.csv](./2nd%20day/MLData/01HR_Data.csv)
@@ -57,6 +58,22 @@
   - [Unedited Scripts](./2nd%20day/Unedited%20Notebooks/)
     - This folder is specifically being used to save the templates that were given during the lessons.
     - Some of the files located in this folder are Jupyter Notebooks and other are Python scripts that were used in Spyder.
+
+- [3rd day](./3rd%20day/)
+  - [MLData](./3rd%20day/MLData/)
+    - Folder containing the following example datasets, these are located specifically in this file for the purpose of the "regular" script exercises.
+    - NewPC.csv
+      - Dataset composed by the following columns:
+        - Average_income
+        - Petrol_Consumption
+    - Pressure.csv
+      - Dataset composed by the following columns:
+        - Temperature
+        - Pressure
+  - [Original files](./3rd%20day/Original%20files/)
+   - Folder containing the original scripts before any alterations were made.
+      - It also contains a folder named [Classification Algorithms](./3rd%20day/Original%20files/Classification%20Algorithms/). This one contains all of the original scripts located in the Classification Algorithms of the __3rd day__ folder.
+  _ []()
 
 ### Times in the course
 
