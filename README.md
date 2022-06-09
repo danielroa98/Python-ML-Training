@@ -131,7 +131,3 @@ CTRL + 4
 - Seaborn
   - Data visualization
   - Based on matplotlib.
-
-### Additional sites
-
-- [NN-architecture schematics](https://alexlenail.me/NN-SVG/)
