@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 # =============================================================================
 # Data Import & Feature Extraction
 # =============================================================================
-dataset = pd.read_csv("Churn Modelling-Bank Customers.csv")
+dataset = pd.read_csv("./MLData/Churn Modelling-Bank Customers.csv")
 
 X = dataset.iloc[:, 3:13]          # X dataframe
 y = dataset.iloc[:,13].values      # y array
@@ -29,7 +29,8 @@ X = X.values    # convert it to array
 # Train Test Split 
 # =============================================================================
 from sklearn.model_selection import train_test_split
-X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.2,random_state=0)
+# Doing an 80-20 split
+X_train,X_test,y_train,y_test = train_test_split(X, y, test_size=0.2, random_state=0)
 
 
 # =============================================================================
@@ -49,6 +50,7 @@ from keras.models import Sequential
 from keras.layers import Dense
 # =============================================================================
 # Initialization of Neural Network
+# It's important to feed Numpy data to Keras, this is later imported to Tensors
 # =============================================================================
 classifier = Sequential()
 
