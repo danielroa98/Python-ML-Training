@@ -71,9 +71,8 @@
         - Temperature
         - Pressure
   - [Original files](./3rd%20day/Original%20files/)
-   - Folder containing the original scripts before any alterations were made.
-      - It also contains a folder named [Classification Algorithms](./3rd%20day/Original%20files/Classification%20Algorithms/). This one contains all of the original scripts located in the Classification Algorithms of the __3rd day__ folder.
-  _ []()
+  - Folder containing the original scripts before any alterations were made. - It also contains a folder named [Classification Algorithms](./3rd%20day/Original%20files/Classification%20Algorithms/). This one contains all of the original scripts located in the Classification Algorithms of the **3rd day** folder.
+    \_ []()
 
 ### Times in the course
 
@@ -132,3 +131,7 @@ CTRL + 4
 - Seaborn
   - Data visualization
   - Based on matplotlib.
+
+### Additional sites
+
+- [NN-architecture schematics](https://alexlenail.me/NN-SVG/)
