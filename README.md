@@ -60,6 +60,17 @@
     - Some of the files located in this folder are Jupyter Notebooks and other are Python scripts that were used in Spyder.
 
 - [3rd day](./3rd%20day/)
+  - [Classification Algorithms](./3rd%20day/Classification%20Algorithms/)
+    - Folder containing Python scripts that use _Classification algorithms_ in order to predict the accuracy.
+    - [04SUV_Ad.csv](./3rd%20day/Classification%20Algorithms/04SUV_Ad.csv)
+      - Dataset that contains information regarding clients who have or haven't bough an SUV. It's composed by the following columns:
+        - User ID
+        - Gender
+        - Age
+        - Estimated Salary
+        - Purchased
+    - [DTClassifier.py](./3rd%20day/Classification%20Algorithms/DTClassifier.py)
+      - 
   - [MLData](./3rd%20day/MLData/)
     - Folder containing the following example datasets, these are located specifically in this file for the purpose of the "regular" script exercises.
     - NewPC.csv
@@ -72,7 +83,6 @@
         - Pressure
   - [Original files](./3rd%20day/Original%20files/)
   - Folder containing the original scripts before any alterations were made. - It also contains a folder named [Classification Algorithms](./3rd%20day/Original%20files/Classification%20Algorithms/). This one contains all of the original scripts located in the Classification Algorithms of the **3rd day** folder.
-    \_ []()
 
 ### Times in the course
 
